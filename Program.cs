@@ -6,7 +6,11 @@ namespace Calculator
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.Clear(); //dotnet run
+            Console.WriteLine("Primeiro valor: ");
+            float v1 = float.Parse(Console.ReadLine());
+
+            Console.WriteLine(v1); 
         }
     }
 }
